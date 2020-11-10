@@ -1,5 +1,8 @@
 # bb-ml-exercise
-
+###
+Reading:
+- https://www.tensorflow.org/tutorials/keras/classification
+- https://www.tensorflow.org/tutorials/images/classification
 ## Goal
 
 To use a gyroscope to capture exercise data and classify this data using tensorflow.
@@ -44,7 +47,7 @@ run using train.py
 ### Predicting values:
 
 Once the data is trained you can run: predict.py <PathToDir> 
-  where <PathToDir> is the directory that contains the images toy want to match.
+  where <PathToDir> is the directory that contains the images you want to match.
   
 
 
