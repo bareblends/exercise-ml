@@ -1,6 +1,15 @@
 # bb-ml-exercise
-###
-Reading:
+
+## Quick Start:
+
+All the data is included:
+
+1. Train the model: 
+- train.py
+2. use it to predict:
+- predict.py /testData/squat/
+
+### Reading:
 - https://www.tensorflow.org/tutorials/keras/classification
 - https://www.tensorflow.org/tutorials/images/classification
 ## Goal
