@@ -1,4 +1,15 @@
 # bb-ml-exercise
+## File Details:
+- testData/ - Directory which contains the testData. # Note this data is not used when training the model
+- userData/ - Raw csv data from mobile app
+- workout/ - model training files
+- frame.py - slice the raw csv file
+- labels.pickle - A python pickle file used to store JSON, it contains the labels for machine learning.
+- listen_server.py - Listen on port 500000 for gyroscope data and save to file.csv
+- make_image.py - turn csv file into an image
+- predict.py - run the ml model to predict 
+- rename.py - utility to randomly name files
+- train.py - train the ml model from the workout/ data
 
 ## Quick Start:
 
